@@ -1,0 +1,34 @@
+// Examples :
+// o monImage.jpg
+//		Load a simple image "monImage.jpg"
+// s Zero_court_gauche.gif 8 2
+//		Load a image "Zero_court_gauche.gif" and cut it with 8 columns and 2 rows
+// n bleu*.jpg 2
+//		Load the images "bleu0.jpg", "bleu1.jpg"
+// g divers manif.jpg bleu0.jpg galaxie_lumiere.jpg
+//		Load the images (manif.jpg bleu0.jpg galaxie_lumiere.jpg) in the group "divers".
+// r sousDossier/JTest.txt
+//		Load the images in the configuration file "JTest.txt" in the subfolder "sousDossier"
+//f panda.jpg
+//c 0 40 110 160
+//c 0 100 100 200
+//c 200 0 300 100
+//f
+//		Load in image "panda.jpg", the images at the coordinate (firstX, firstY, lastX, lastY) so here : (0, 40, 110, 160) for the first image and so on
+//
+
+o caisse.jpg
+o caisse_ok.jpg
+o mario_bas.gif
+o mario_droite.gif
+o mario_gauche.gif
+o mario_haut.gif
+o menu.jpg
+o mur.jpg
+o objectif.png
+o eau.jpg
+o gaz.jpg
+o terre.jpg
+o metal.jpg
+o grava.jpg
+s Zero_court_gauche.gif 8 2
